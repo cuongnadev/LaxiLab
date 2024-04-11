@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.laxilab.Controller.LaxiLabController">
+    <top>
+        <MenuBar fx:id="menu_bar" BorderPane.alignment="CENTER">
+            <Menu mnemonicParsing="false" text="File">
+                <MenuItem fx:id="new_file_item" mnemonicParsing="false" text="New File" />
+                <MenuItem fx:id="open_item" mnemonicParsing="false" text="Open" />
+                <MenuItem fx:id="save_item" mnemonicParsing="false" text="Save" />
+                <MenuItem fx:id="exit_item" mnemonicParsing="false" text="Exit" />
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit" />
+            <Menu mnemonicParsing="false" text="Help" />
+        </MenuBar>
+    </top>
+    <center>
+        <TextArea fx:id="textarea_code" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </center>
+    <left>
+        <TreeView fx:id="tree_view" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </left>
+</BorderPane>
+
