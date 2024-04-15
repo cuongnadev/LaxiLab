@@ -1,0 +1,29 @@
+.tab_pane{
+    -fx-padding: 0;
+}
+.menu_bar{
+    -fx-font-size: 12px;
+    -fx-padding: 0;
+}
+.text_area{
+    -fx-border: none;
+}
+.name_tab{
+    -fx-font-size: 12px;
+    -fx-padding:1px 2px;
+    -fx-tab-min-width: 80px;
+}
+.button{
+    -fx-pref-width: 20px;
+    -fx-pref-height: 20px;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-background-insets: 0;
+    -fx-cursor: pointer;
+}
+.button:hover{
+    -fx-background-color: #9d1111;
+    -fx-text-fill: #fff;
+}

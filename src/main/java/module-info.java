@@ -6,5 +6,5 @@ module org.example.laxilab {
     opens org.example.laxilab to javafx.fxml;
     exports org.example.laxilab;
     exports org.example.laxilab.Controller;
-    exports org.example.laxilab.Other;
+    exports org.example.laxilab.Modal;
 }
